@@ -1,0 +1,22 @@
+{
+    "development": {
+      "database": "dev_movie_reservation_db",
+      "host": "database",
+      "username":"dev_user",
+      "password":"dev_password",
+      "dialect": "postgres",
+      "define": {
+        "underscored": true
+      }
+    },
+    "test": {
+      "database": "database_test",
+      "host": "127.0.0.1",
+      "dialect": "postgres"
+    },
+    "production": {
+      "database": "database_production",
+      "host": "database",
+      "dialect": "postgres"
+    }
+  }
